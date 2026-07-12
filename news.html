@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="Keywords" content="Media Academy - more description" />
+    <meta name="description" content="Media Academy - more description" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media Academy</title>
+    <link rel="icon" type="image/png" href="images/academy.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/pignose.calendar.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="" draggable="false">
+            <i class="fa fa-search Search_Icon formobile" data-toggle="modal" data-target="#SearchModel"
+                aria-hidden="true"></i>
+                <div class="shoppingMobile formobile">
+                    <a title="Cart" href="shoppingCart.html">
+                        <div class="CartNumber"></div>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </div> 
+        </div>
+        <nav>
+            <img class="icon" src="images/menu.svg" alt="">
+            <img class="icon_close" src="images/cancel.svg" alt="">
+            <ul class="NavbarUL">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle notActive" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="message.html">Messages</a></li>
+                        <li><a class="dropdown-item" href="goals.html">Goals</a></li>
+                        <li><a class="dropdown-item" href="mission.html">Missions</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle notActive" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">Training</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="trainers.html">Link 1</a></li>
+                                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                <li><a class="dropdown-item" href="#">Link 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Consulting</a></li>
+                    </ul>
+                </li>
+                <li><a class="notActive" href="courses.html">Courses</a></li>
+                <li><a class="notActive" href="contact.html">Contact</a></li>
+                <li class="formobile"><a class="notActive" href="editprofile.html"><i class="fa fa-user"
+                            aria-hidden="true"></i>My
+                        Account</a></li>
+                <li class="formobile"><a class="Arabic notActive" href="index_ar.html"><i class="fa fa-globe"
+                            aria-hidden="true"></i>العربية</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <ul>
+                <li>
+                    <i class="fa fa-search" data-toggle="modal" data-target="#SearchModel" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <a data-toggle="tooltip" title="Cart" data-placement="bottom" href="shoppingCart.html">
+                        <div class="CartNumber"></div>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li><a href="editprofile.html" data-toggle="tooltip" title="My Account" data-placement="bottom"><i
+                            class="fa fa-user" aria-hidden="true"></i></a></li>
+                <li><a href="index_ar.html" data-toggle="tooltip" title="العربية" data-placement="bottom"><i
+                            class="fa fa-globe" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <!-- <div class="search-box">
+            <input class="search_input" type="text" placeholder="">
+            <input class="search_btn" type="button" value="Search">
+        </div> -->
+    </header>
+    <!-- End Header -->
+
+    <div class="MainTitle">
+        <div class="overlay"></div>
+        <h4>News Academy</h4>
+    </div>
+
+    <section id="NewsList">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news1.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of news...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news2.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news3.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news1.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news2.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news3.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news1.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news2.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news3.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news1.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news2.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card_news NewsMore ltr_effect">
+                        <a href="#">
+                            <div class="item_img">
+                                <img class="slider_img" src="images/news3.png" alt="">
+                            </div>
+                            <div class="date">
+                                <span>7/7/2019</span>
+                            </div>
+                            <div class="title">
+                                <h5>the title of lines news academey title lines will be here...</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="buttons">
+                <button class="btn MoreBtn">View more <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="footer_Section  col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget"></h1>
+                            <ul>
+                                <li id="Download"><a href="#"><img src="images/app-store.png" alt=""></a></li>
+                                <li id="Download"><a href="#"><img src="images/google-play.png" alt=""></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">Services</h1>
+                            <ul>
+                                <li><a href="#" target="_blank">Training Services</a></li>
+                                <li><a href="#" target="_blank">Consulting Services</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">About Us</h1>
+                            <ul>
+                                <li><a href="#" target="_blank">Messages</a></li>
+                                <li><a href="#" target="_blank">Goals</a></li>
+                                <li><a href="#" target="_blank">Missions</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">Subscribe to newsletters</h1>
+                            <form class="NewsForm">
+                                <button type="submit"><i class="fa fa-angle-right"></i></button>
+                                <input type="text" placeholder="Email" name="">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="language">
+                        <p>Copyright © Media Academy, 2019</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="paymentCards">
+                        <ul>
+                            <li><a href="#"><img src="images/Knet.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/Visa.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/Mastercard.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="copyright">
+                        <p>Developed by <a href="#" target="_blank"><img src="images/HardTask_logo.png" alt=""></a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Start Scroll To Top  -->
+    <div class="scroll_top">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <!-- End Scroll To Top -->
+
+    <div class="modal fade" id="SearchModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="search_box_popup">
+                    <input class="search_input" type="text" placeholder="" />
+                    <input class="search_btn" type="button" value="Search" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        $(function () {
+            $(".NewsMore").slice(0, 8).show();
+            $(".MoreBtn").on('click', function (e) {
+                e.preventDefault();
+                $(".NewsMore:hidden").slice(0, 4).slideDown();
+                if ($(".NewsMore:hidden").length == 0) {
+                    $(".MoreBtn").fadeOut('fast');
+                }
+
+            });
+        });
+    </script>
+</body>
+
+</html>
